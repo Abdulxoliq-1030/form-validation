@@ -1,0 +1,65 @@
+.sign-in-zone {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+.sign-in-zone .form {
+  padding: 30px 40px;
+}
+.sign-in-zone .form .form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  text-align: start;
+}
+.sign-in-zone .form .form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.sign-in-zone .form .form-control input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+.sign-in-zone .form .form-control.success input {
+  border-color: #2ecc71;
+}
+.sign-in-zone .form .form-control.success i.fa-check-circle {
+  visibility: visible;
+  color: #2ecc71;
+}
+.sign-in-zone .form .form-control.error input {
+  border-color: #e74c3c;
+}
+.sign-in-zone .form .form-control.error i.fa-exclamation-circle {
+  visibility: visible;
+  color: #e74c3c;
+}
+.sign-in-zone .form .form-control.error small {
+  visibility: visible;
+  color: #e74c3c;
+}
+.sign-in-zone .form .form-control i {
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  visibility: hidden;
+}
+.sign-in-zone .form .form-control small {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.sign-in-zone .form button {
+  background-color: #295a29;
+  color: #fff;
+  border: 2px solid #295a29;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
